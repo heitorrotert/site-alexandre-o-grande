@@ -1,4 +1,4 @@
-# Alexandre, o Grande
+# Alexandre o Grande
 
 ## Sobre o projeto
 
