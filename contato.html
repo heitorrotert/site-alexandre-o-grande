@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o responsável pelo site sobre Alexandre.">
+    <title>Contato — Alexandre, o Grande</title>
+</head>
+<body>
+    <a href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+        <h1>Contato</h1>
+        <p>Entre em contato para enviar dúvidas ou sugestões.</p>
+    </header>
+
+    <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtBp-JG33rAZvmuXP_8nzjYjB0KBIYj25PBWb_nDAmcrjwqtkwSoJHh0ba&s=10"
+             alt="Rei da Macedónia."
+             width="600">
+        <figcaption>
+            Imagem: <a href="https://commons.wikimedia.org/wiki/File:Statue_of_Alexandria_the_Great.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.
+        </figcaption>
+    </figure>
+
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="dados.html">Dados históricos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="conteudo">
+        <section>
+            <h2>Informações de contato</h2>
+            <p>Os dados abaixo são fictícios e foram incluídos somente para a atividade escolar.</p>
+
+            <address>
+                Responsável: Heitor Rotert Ferreira<br>
+                Cidade: Joinville — SC<br>
+                E-mail: <a href="mailto:contato@alexandrehistoria.example">heitor_r_ferreira@edu.fiesc.br</a><br>
+                Telefone: (47) 99999-9967
+            </address>
+        </section>
+
+        <section>
+            <h2>Horário de atendimento fictício</h2>
+
+            <dl>
+                <dt>Segunda a sexta-feira</dt>
+                <dd>Das 8h às 17h.</dd>
+
+                <dt>Sábado</dt>
+                <dd>Das 8h às 12h.</dd>
+
+                <dt>Domingo</dt>
+                <dd>Sem atendimento.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Envie uma mensagem</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Formulário de contato</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="correcao">Correção de informação</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" maxlength="300" required></textarea>
+                    </p>
+
+                    <button type="submit">Enviar mensagem</button>
+                    <button type="reset">Limpar formulário</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Estudante: Heitor Rotert Ferreira — Turma: DSM3 25 — 2026</p>
+        <p>Programação de Aplicativos.</p>
+    </footer>
+</body>
+</html>
