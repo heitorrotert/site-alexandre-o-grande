@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário fictício para uma visita educativa sobre Alexandre.">
+    <title>Cadastro — Alexandre, o Grande</title>
+</head>
+<body>
+    <a href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+        <h1>Cadastro para visita educativa</h1>
+        <p>Preencha o formulário fictício para demonstrar interesse em uma atividade sobre Alexandre.</p>
+    </header>
+
+    <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd2FpVXwxbSodxtzAvIVbH6F1Uhs-I5uMZ3As-vqbEWwdcKOKMvEQ-0Whl&s=10"
+             alt="Representação histórica de Alexandre, o Grande."
+             width="600">
+        <figcaption>
+            Imagem: <a href="https://commons.wikimedia.org/wiki/File:Alexander_the_Great_mosaic.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.
+        </figcaption>
+    </figure>
+
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="dados.html">Dados históricos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="conteudo">
+        <section>
+            <h2>Formulário de participação</h2>
+            <p>Este formulário é apenas uma demonstração escolar. Não informe dados pessoais reais.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados do participante</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="telefone">Telefone fictício:</label>
+                        <input type="tel" id="telefone" name="telefone"
+                               pattern="[0-9]{10,11}"
+                               title="Digite de 10 a 11 números, sem espaços ou símbolos.">
+                    </p>
+
+                    <p>
+                        <label for="data">Data desejada para a visita:</label>
+                        <input type="date" id="data" name="data" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferências da visita</legend>
+
+                    <p>Qual período você prefere?</p>
+
+                    <p>
+                        <input type="radio" id="manha" name="periodo" value="manha" required>
+                        <label for="manha">Manhã</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="tarde" name="periodo" value="tarde">
+                        <label for="tarde">Tarde</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="noite" name="periodo" value="noite">
+                        <label for="noite">Noite</label>
+                    </p>
+
+                    <p>
+                        <label for="idade">Faixa etária:</label>
+                        <input type="number" id="idade" name="idade" min="10" max="100" step="1">
+                    </p>
+
+                    <p>
+                        <label for="nota">Quanto você gosta de História? (0 a 10):</label>
+                        <input type="number" id="nota" name="nota" min="0" max="10" step="0.5">
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto de maior interesse:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="vida">Vida de Alexandre</option>
+                            <option value="conquistas">Conquistas</option>
+                            <option value="cultura">Cultura e helenismo</option>
+                        </select>
+                    </p>
+
+                    <p>Quais temas você gostaria de conhecer?</p>
+
+                    <p>
+                        <input type="checkbox" id="egito" name="temas" value="egito">
+                        <label for="egito">Egito Antigo</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="persia" name="temas" value="persia">
+                        <label for="persia">Império Persa</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem e confirmação</legend>
+
+                    <p>
+                        <label for="mensagem">Deixe um comentário (máximo de 300 caracteres):</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" maxlength="300"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="termos" name="termos" value="aceito" required>
+                        <label for="termos">Confirmo que entendi que este é um formulário fictício.</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar cadastro</button>
+                    <button type="reset">Limpar formulário</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Estudante: Heitor Rotert Ferreira — Turma: DS25 — 2026</p>
+        <p> Programação de Aplicativos.</p>
+    </footer>
+</body>
+</html>
