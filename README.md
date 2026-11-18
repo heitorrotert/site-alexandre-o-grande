@@ -26,11 +26,11 @@ Alexandre, o Grande é um site informativo sobre a história do rei da Macedôni
 
 Resultado do teste realizado com a tecla Tab:
 
-- [ ] Início
-- [ ] Sobre
-- [ ] Dados
-- [ ] Cadastro
-- [ ] Contato
+- [x] Início
+- [x] Sobre
+- [x] Dados
+- [x] Cadastro
+- [x] Contato
 
 ## Autor
 
