@@ -1,39 +1,17 @@
-# Alexandre o Grande
+Alexandre, o Grande
 
-## Sobre o projeto
+Projeto criado para a prática de desenvolvimento de sites utilizando HTML, CSS e JavaScript. O site apresenta informações sobre a história, conquistas e legado de Alexandre, o Grande.
 
-Alexandre, o Grande é um site informativo sobre a história do rei da Macedônia. O objetivo é apresentar sua trajetória, conquistas, curiosidades, dados históricos e formulários temáticos utilizando HTML sem CSS.
+Tecnologias usadas
 
-## Páginas do site
+HTML, CSS e JavaScript.
 
-- `index.html` — página inicial com uma apresentação de Alexandre.
-- `sobre.html` — história, conquistas, curiosidades e glossário.
-- `dados.html` — tabela com os principais acontecimentos de sua vida.
-- `cadastro.html` — formulário fictício de inscrição para uma visita educativa.
-- `contato.html` — informações de contato e formulário de mensagem.
+Como executar
 
-## Tecnologias utilizadas
+Clone este repositório ou baixe os arquivos em formato .zip.
 
-- HTML5
-- Git e GitHub
+Depois, abra a pasta do projeto no Visual Studio Code e execute o arquivo index.html no navegador.
 
-## Fontes de pesquisa
+Autoria
 
-- World History Encyclopedia — [https://www.worldhistory.org/Alexander_the_Great/](https://www.worldhistory.org/Alexander_the_Great/)
-- Encyclopaedia Britannica — [https://www.britannica.com/biography/Alexander-the-Great](https://www.britannica.com/biography/Alexander-the-Great)
-
-## Teste de acessibilidade com teclado
-
-Resultado do teste realizado com a tecla Tab:
-
-- [x] Início
-- [x] Sobre
-- [x] Dados
-- [x] Cadastro
-- [x] Contato
-
-## Autor
-
-Nome: Heitor Rotert Ferreira  
-Turma: EM DSM3/25 — 2ª Série  
-Ano: 2026
+Elaborado por Heitor, integrante da turma do 2º ano DSM3.
